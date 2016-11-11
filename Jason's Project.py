@@ -2,7 +2,6 @@ from unicurses import *
 
 stdscr = initscr() # initializes the standard screen
 
-
 ####### GAME FUNCTIONS #######
 
 points = int(20)
@@ -29,4 +28,6 @@ class character:
 
 
 
+
+#Questions... What is unicode? Global variables? How do you test the code?#
 getch()
